@@ -49,6 +49,13 @@
     .profile-main-container .profile-container {
         display: block;
     }
+    .profile-container-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-main-proyects {
+        padding: 0 25px 20px;
 }
 
 @media (max-width: 479px) {
@@ -94,6 +101,12 @@
     .blogpost-img-container {
         padding: 20px 35px 36px;
     }
+    footer form{
+        padding: 0;
+    }
+    .profile-main-container {
+        padding: 35px 20px;
+    }
 
 }
 @media (max-width: 319px) {
@@ -106,9 +119,7 @@
     .blogs-news-container{
         padding: 0px 10px 30px
     }
-    footer form{
-        padding: 0;
-    }
+
     .blogs-posts-container {
         padding: 0 15px 20px;
     }
@@ -117,5 +128,8 @@
     }
     .blogpost-main-container .grid-container article h1{
         font-size: 26px;
+    }
+    .profile-main-container img {
+        width: 280px;
     }
 }
