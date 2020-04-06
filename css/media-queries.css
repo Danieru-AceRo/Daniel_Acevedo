@@ -1,0 +1,118 @@
+
+@media (max-width: 1023px) {
+
+}
+
+
+@media (max-width: 767px) {
+    header {
+        grid-template-rows: 1fr 2fr;
+    }
+    nav .nav-logo-container img {
+        height: 90px;
+        margin-top: 5px;
+    }  
+    .home-main section{
+        margin-top: 0;
+    }
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr
+    }
+    .blogs-main-news {
+        grid-template-columns: 1fr;
+    }
+    .blogs-news-img-container {
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+    }
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-posts-container .post-container {
+        max-width: 45%;
+        padding: 0 10px;
+    }
+    .blogs-posts-container .post-container img {
+        max-width: 100%;
+        max-height: 200px;
+        width: auto;
+        display: flex;
+        margin: auto;
+    }
+    .proyects-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+}
+
+@media (max-width: 479px) {
+    .home-main{
+        height: auto;
+    }
+    .home-main-text{
+        font-size: 18px
+    }
+    .home-main-button {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .blogs-posts-container .post-container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .main_btn{
+    font-size: 14px;
+    font-weight: bold;
+    }
+    header .header-icons-container .icons {
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+        justify-self: center;
+        margin-right: 0; 
+    }
+    .flaticon-010-linkedin:before {
+        content: "\f109";
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        margin-left: 0;
+    }
+    .blogpost-main-container {
+        padding: 0 25px 20px;
+        color: white;
+    }
+    .blogpost-img-container {
+        padding: 20px 35px 36px;
+    }
+
+}
+@media (max-width: 319px) {
+    p{
+        font-size: 14px;
+    }
+    .home-main-text{
+        font-size: 16px
+    }
+    .blogs-news-container{
+        padding: 0px 10px 30px
+    }
+    footer form{
+        padding: 0;
+    }
+    .blogs-posts-container {
+        padding: 0 15px 20px;
+    }
+    .blogpost-img-container {
+        padding: 20px 22px 30px;
+    }
+    .blogpost-main-container .grid-container article h1{
+        font-size: 26px;
+    }
+}
