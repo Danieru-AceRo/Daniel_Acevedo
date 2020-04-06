@@ -53,7 +53,7 @@
 
 @media (max-width: 479px) {
     .home-main{
-        height: auto;
+        /* height: auto; */
     }
     .home-main-text{
         font-size: 18px
