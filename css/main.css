@@ -127,6 +127,8 @@ nav .profile-link a {
 }
 .blogs-news-img-container img{
     width: 85%;
+    height: 85%;
+    object-fit: contain;
 }
 .blogs-news-info-container {
     grid-column: 2;
